@@ -1,0 +1,18 @@
+div{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 30px;
+}
+.toto{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-color: black;
+    border-width: 3px;          /*  ==> or border: "width" "style" "color" */
+    border-style:dashed;
+    border-radius: 70px;
+}
