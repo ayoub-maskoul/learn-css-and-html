@@ -1,0 +1,50 @@
+/* SHADOW*/
+/* div{
+    background-color: silver;
+    width: fit-content;
+    text-shadow: 2px 1px 3px red;
+} */
+
+
+/*   Alignment   */
+/* div{
+    text-align: center;
+    direction: ltr;
+}
+.ar{
+    direction: ltr;
+} */
+
+
+/*Decoration And Transform*/
+/* div{
+    text-decoration:line-through overline underline blue dashed;
+    margin-bottom: 4px;
+} */
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-size: large;
+    font-style: italic;
+    background-color: black;
+    border-radius: 10px;
+    text-transform:uppercase ;
+    letter-spacing: -2px;
+}
+
+/* text Spacing */
+div{
+    letter-spacing: -2.5px;
+    text-indent: 50px;
+    background-color: silver;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+div:hover {
+    overflow:visible;
+}
