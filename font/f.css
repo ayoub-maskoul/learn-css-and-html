@@ -1,0 +1,23 @@
+/*  Font familey*/
+/* div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(150, 150, 150, 0.671);
+    text-align: center;
+} */
+
+/*  Font saize  */
+
+
+div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+
+span{
+    top: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline dotted ;
+}
