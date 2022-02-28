@@ -1,0 +1,12 @@
+h2{
+    color: rgb(54,85,25) /* r=red , g=green, b=blue */
+}
+.p1{
+    color: #10f2;   /*  color hex code */
+}
+.p2{
+    color: rgba(#10f2,#454545,#221f,47);  /* rbg + alpha */
+}
+.p3{
+    color: darkblue;           /* name color */
+}

@@ -1,0 +1,12 @@
+.p1{
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1531804055935-76f44d7c3621?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&utm_medium=referral);
+    background-repeat: repeat-x;
+    background-attachment: fixed ;
+    background-size: 100px;
+}
+.p2{
+    background-image: url(https://images.unsplash.com/photo-1531804055935-76f44d7c3621?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&utm_medium=referral);
+    background-repeat: repeat;
+    background-size:contain;
+}
