@@ -1,0 +1,17 @@
+div{
+    width: 70%;
+    margin: auto;
+    border-color: black;
+    border-width: 5px;
+    border-style:solid;
+    outline: 10px green solid;
+}
+.toto{
+    width: 70%;
+    margin: auto;
+    
+    border-color: black;
+    border-width: 3px;
+    border-style:dashed;
+    outline-style: dashed;
+}

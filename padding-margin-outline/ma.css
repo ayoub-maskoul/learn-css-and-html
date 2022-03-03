@@ -1,0 +1,11 @@
+div{
+    background-color: silver;
+    margin-left:12.5% ;
+    width: 75%;
+    margin-right: 12.5%;
+}
+.toto{
+    background-color: silver;
+    width: 75%;
+    margin: 0 auto;
+}
