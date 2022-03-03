@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> <h2>form:</h2>
+    <form action="" method="post">
+        <div>
+            <label>username</label>
+            <input type="text" name="un" required placeholder="username" readonly>
+        </div>
+        <br>
+        <div>
+            <label for="s">Subject</label>
+            <input id="s" type="text" name="sub" placeholder="Write if you can subject" autofocus minlength="10" maxlength="30">
+        </div>
+        <br>
+        <div>
+            <label>password</label>
+        <input type="password" required name="pass" minlength="7" maxlength="15">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="em" placeholder="write email" value="a@yahow.dz" disabled>
+        </div>
+        <br>
+        <div>
+            <label>Color</label>
+            <input type="color" name="cl" value="green">
+        </div>
+        <br>
+        <div>
+            <label>range</label>
+            <input type="range" name="rn" min="0" max="100" step="10" value="40">
+        </div>
+        <br>
+        <div>
+            <label>numbre</label>
+            <input type="number" name="nm" min="0" max="100" step="10" value="40">
+        </div>
+        <br>
+        <div>
+            <label for="tt">text</label><br>
+            <textarea name="tt" id="tt" cols="30" rows="10" placeholder="text"></textarea>
+        </div>
+        <hr>
+        <div>
+            <label for="file">file:</label>
+            <input type="file" id="file" name="f">
+        </div>
+        <br>
+        <div>
+            <label for="se">search:</label>
+            <input type="search" id="se" name="sr">
+        </div>
+        
+        <div>
+            <label for="url">link</label>
+            <input type="url" id="url">
+        </div>
+        <br>
+        <div>
+            <label for="time">time:</label>
+            <input type="time" id="time">
+        </div>
+        <br>
+        <div>
+            <label for="date">date:</label>
+            <input type="date" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="mo">month:</label>
+            <input type="month" id="mo">
+        </div>
+        
+        <br>> 
+        <input type="reset" value="reset">
+        <input type="submit" value="save">
+        
+    </form>
+</body>
+</html>

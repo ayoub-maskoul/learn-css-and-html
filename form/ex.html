@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+<body>
+    <h2>User Registration</h2>
+    <p>Please complete the following form to register with our site:</p>
+    <div class="ex3">
+        <form action=""> 
+            <fieldset class="t1">    
+                <legend>About You(ALT + Y)</legend>
+                <div>
+                    <label id="n" for="n">User name:</label>
+                    <input type="text" id="n" name="n">
+                </div>
+                <div>
+                    <label id="pas"  for="pas">Password:</label>
+                    <input type="password" id="pas" name="pas">
+                </div>
+                <div>
+                    <label id="cpas" for="cpas">confirm Password:</label>
+                    <input type="password" id="cpas" name="cpas">
+                </div>
+                <br>
+                <div>
+                    <label for="fm">First name</label>
+                    <input type="text" id="fm" name="fm">
+                </div>
+                <div>
+                    <label for="lm">Last name</label>
+                    <input type="text" id="lm" name="lm">
+                </div>
+                <br>
+                <div>
+                    <label for="em">Email address</label>
+                    <input type="email" id="em" name="em">
+                </div>
+                <br>
+                <div>
+                    <label for="">Gender:</label>
+                    <input type="radio" value="Male" name="g" id="ma">
+                    <label class="mal" for="ma">Male</label>
+                    <br>
+                    <input type="radio" name="g" value="Female" id="fe">
+                    <label class="faml" for="fe">Female</label>
+                </div>
+                <br>
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>About Us(ALT + U)</legend>
+                <div>
+                    <label for="sele">How did you hear about us?:</label>
+                    <select name="sele" id="sele">
+                        <option value="">Select answer</option>
+                    </select>
+                </div>
+                <br>
+                <div class="finle">
+                    <p class="p1">
+                        Please select this box if you wish to be added to our maling list
+                    </p>
+                    <p class="p2">
+                        we will not pass on your details to any thir party.
+                    </p>
+                    <input type="checkbox" id="r">
+                </div>
+            </fieldset>
+        </form>
+        <br>
+        <input class="rig" type="button" value="Rigester now">
+    </div>
+</body>
+</html>

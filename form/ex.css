@@ -1,0 +1,37 @@
+.ex3{
+    width: 450px;
+    margin-bottom: 25px;
+    background-color: #EEE;
+}
+input{
+    position: absolute;
+    left: 170px;
+}
+.mal , .faml{
+    position: absolute;
+    left: 200px;
+}
+
+.p1{
+    width: 35%;
+}
+.p2{
+    font-size: small;
+    position: relative;
+    bottom: 15PX;
+}
+
+#r{
+    position: relative;
+    left: 300px;
+    bottom: 83px;
+}
+.finle{
+    margin-bottom: -40px
+}
+.rig{
+    position: relative;
+    left: 10px;
+    bottom: 0px;
+}
+
