@@ -1,0 +1,14 @@
+/*  Block
+
+--- Take Full Width If No Width
+--- Add Line Break
+--- Respect Padding, Margin, Width, Height
+*/
+
+
+
+div{
+    background-color: silver;
+    width: 100px;
+    margin: 10px;
+}

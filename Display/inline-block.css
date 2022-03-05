@@ -1,0 +1,22 @@
+/* Inline-Block
+
+--- Allow Elements Before And After It in The Same Line
+--- Respect Padding, Margin, Width, Height
+*/
+
+
+span{
+    background-color: silver;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+div{
+    background-color: silver;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
