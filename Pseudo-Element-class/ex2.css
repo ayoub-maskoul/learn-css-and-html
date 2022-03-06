@@ -1,0 +1,11 @@
+p:active{
+    color: white;
+    background-color: black;
+}
+
+nav:first-child{
+    color: red;
+}
+nav:last-child{
+    color: blue;
+}

@@ -1,0 +1,41 @@
+.one {
+    background-color: red;
+    color: white;
+}
+.two {
+    background-color: #EEE;
+    width: 100px;
+    height: 100px;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+.ch:checked + label{
+    color: blue;
+    display: none;
+}
+a:visited{
+    color: lawngreen;
+}
+.in:focus {
+    border-color: red;
+    outline: none
+}
+
+.P1::selection{
+    color: blue;
+    background-color: blueviolet;
+}
+
+.P1:first-letter{
+    font-size: 40px;
+    color: gold;
+}
+.P2::first-line{
+    color: blueviolet;
+}
