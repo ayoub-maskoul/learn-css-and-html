@@ -1,0 +1,52 @@
+/* static == constant*/
+body{
+    min-height: 2000px;
+}
+div{
+    color: black;
+}
+.one{
+    background-color: green;
+    color: white;
+    width: 50px;
+    height: 50px;
+
+}
+
+.two{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 50px;
+
+}
+
+        /* relative */
+/* .one{
+    background-color: green;
+    position: relative;
+    top: 10px;
+}
+.two{
+    background-color: blue;
+    position: relative;
+    left: 25px;
+} */
+
+
+        /* absolute */
+
+/* .one{
+    position: absolute;
+    bottom:  0;
+} */
+
+        /* fixed and sticky */
+.two{
+    position: sticky;
+    top: 0; 
+}
+.one{
+    position: fixed;
+    bottom:  0;
+}
