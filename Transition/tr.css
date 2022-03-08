@@ -1,0 +1,30 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.one {
+    background-color: lightcoral;
+    width: 200px;
+    height: 100px;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-property: all;
+    
+    transition-timing-function: ease;
+    /* transition-timing-function:
+
+        ease=transition start slow continue speed finish slow
+        linear=same speed to transition 
+        ease-in=transition start slow continue speed finish speed
+        ease-out=transition start speed continue speed finish slow
+        ease-in-out=transition start slow continue slow finish slow*/
+
+
+    transition: width 2s 0.5s linear ,height 3s 0.5s ease-in;   
+    /* transition: property duration timing-function delay*/
+}
+.one:hover {
+    width: 280px;
+    height: 190px;
+}
