@@ -1,0 +1,7 @@
+.ul1 li{
+    list-style:georgian;
+}
+.ul2 li{
+    list-style: decimal-leading-zero;
+    list-style-position: outside;
+}
