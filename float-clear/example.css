@@ -1,0 +1,33 @@
+/*
+    float
+    clear
+*/
+.Product1{
+    background: red;
+    padding: 10px;
+    margin-bottom: 80px; 
+    overflow: hidden;
+}
+.Product1 div{
+    padding: 10px 0px;
+    text-align: center;
+    background: #eee;
+    width: 25%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+/*      comparison      */
+.Product2{
+    background: red;
+    padding: 10px;
+}
+.Product2 div{
+    padding: 10px 0px;
+    text-align: center;
+    background: #eee;
+    width: 25%;
+    display: inline-block;
+}
