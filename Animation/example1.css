@@ -1,0 +1,36 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: blue;
+    animation-name: anime1 ;
+    animation-duration:20s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count:infinite ;
+    animation-direction: reverse;
+}
+@keyframes anime1{
+/*      from{
+            background-color: blue;                                                 from==0%-to==100%
+        }
+        to{
+            background-color: brown;
+        } */
+        0%{
+            background-color: blue;
+        }
+        25%{
+            background-color: black;;
+        }
+        50%{
+            background-color: green;
+        }
+        75%{
+            background-color: orange;
+        }
+        100%{
+            background-color: red;
+        }
+    }
