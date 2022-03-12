@@ -1,0 +1,34 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(243, 174, 174, 0.658);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s 0s linear transform;
+}
+
+div:hover{
+    transform: skew(10deg,5deg);
+}
+
+
+h2{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px 30px;
+    position: relative;
+}
+
+h2::before{
+    content: '';
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: skewX(25deg);
+}

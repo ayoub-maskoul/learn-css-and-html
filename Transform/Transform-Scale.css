@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(243, 174, 174, 0.658);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s 0s linear transform;
+}
+.div1:hover{
+    transform: scale(2,2);
+}
+
+p{
+    text-align: center;
+}
+
+.div2:hover{
+    transform: scale(-1);
+}

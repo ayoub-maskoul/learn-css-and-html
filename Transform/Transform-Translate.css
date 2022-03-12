@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(243, 174, 174, 0.658);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s 0s linear transform;
+}
+
+div:hover{
+    /* transform: translate(100px,20%); */
+    transform: translate(-200px,-3rem);
+}
