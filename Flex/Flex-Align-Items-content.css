@@ -1,0 +1,54 @@
+/*
+    align-items: stretch => Default Value
+    Align Content: stretch => Default Value
+*/
+*{
+    box-sizing: border-box;
+}
+.div1{
+    display: flex;
+    background-color: silver;   
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: flex-start;
+}
+.div1 p{
+    width: calc(100%/3);
+    padding: 10px;
+    background-color: red;
+}
+/* .one {
+    height: 80px;
+} */
+.two{
+    height: 120px;
+}
+.center {
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    background-color: #eee;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+}
+.div2 div {
+    background-color: red;
+    color: white;
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 20px;
+}

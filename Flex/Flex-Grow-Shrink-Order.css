@@ -1,0 +1,75 @@
+/*
+- flex-grow: 0 => Default Value
+- flex-shrink: 1 => Default Value
+- order: 0 => Default Value
+- flex-basis: auto => Default Value
+- flex: [flex-grow] [flex-shrink] [flex-basis]
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.div1{
+    display: flex;
+    background-color: silver;
+    padding: 20px;
+    width: 540px;
+}
+.div1 p{
+    flex-basis: 100px;
+    padding: 10px;
+    background-color: red;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border: 1px black solid;
+}
+.div1 .tree{
+    flex-shrink: 3;
+}
+.div1 .five{
+    flex-grow: 2;
+}
+
+#conteneur-flexible{
+    display:flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    border : 5px solid;
+    height: 400px;
+    width: 400px;
+}
+#flex-item1 {
+    background-color: red;
+    width: 150px;
+    height: 100px;
+    order: 3;
+}
+#flex-item2 {
+    background-color: yellow;
+    width: 150px;
+    height: 100px;
+    order: 1;
+}
+#flex-item3 {
+    background-color: green;
+    width: 150px;
+    height: 100px;
+    order: 5;
+}
+#flex-item4 {
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    order: 2;
+}
+#flex-item5 {
+    background-color: pink;
+    width: 150px;
+    height: 100px;
+    order: 4;
+}

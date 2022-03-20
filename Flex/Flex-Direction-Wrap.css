@@ -1,0 +1,23 @@
+/*  Flex Box
+    For Parent
+    - display: flex => To Start Flexible Box
+    - flex-direction: row => Default Value
+    - flex-wrap: nowrap => Default Value
+    - flex-flow: [Flex-Direction] + [Flex-Wrap]
+*/
+*{
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    background-color: silver;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+p{
+    width: 20%;
+    height: 20px;
+    padding: 10px;
+    background-color: red;
+}

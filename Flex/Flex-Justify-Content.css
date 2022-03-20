@@ -1,0 +1,31 @@
+/*justify-content: flex-start => Default Value*/
+
+*{
+    box-sizing: border-box;
+}
+
+.div1{
+    display: flex;
+    background-color: silver;   
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.div1 p{
+    width: calc(100%/3);
+    padding: 10px;
+    background-color: red;
+}
+.div2{
+    display: flex;
+    background-color: silver;   
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.div2 p{
+    width: calc(92%/3);
+    padding: 10px;
+    background-color: red;
+}
